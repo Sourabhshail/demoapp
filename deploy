@@ -1,7 +1,6 @@
 -#!/bin/sh
-ssh root@159.89.166.118 <  cd /home/demoapp
- git pull
- npm install --production
- pm2 restart all
- exit
+ssh root@159.89.166.118  <  cd /home/demoapp
+git pull
+pm2 restart all
+exit
 EOF
