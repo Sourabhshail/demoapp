@@ -1,6 +1,6 @@
 -#!/bin/sh
 ssh root@159.89.166.118  <  cd /home/demoapp
-git pull
+git pull origin main
 pm2 restart all
 exit
 EOF
